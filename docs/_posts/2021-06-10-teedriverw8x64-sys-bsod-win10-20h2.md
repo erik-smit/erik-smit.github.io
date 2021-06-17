@@ -4,6 +4,7 @@ For some reason Microsoft supplies a driver with Windows Update for the Intel Ma
   * Go into command-line.
   * 
 ```
+c:\
 cd \windows
 dir TeeDriverW8x64.sys /s
 ```
