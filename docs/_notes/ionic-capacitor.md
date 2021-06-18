@@ -11,7 +11,7 @@ name: ionic-capacitor
 
 ## `Unhandled Rejection: "XXX" plugin is not implemented on android
 
-* Forgot `npm install $plugin`?
+* Forgot `npm install $plugin` or `ionic cap sync`?
 * Does Android Studio show the plugin on the left in the project view?  My newly added `erik-capacitor-plugin-test` didn't show until I `File -> Sync Project with Gradle Files`.
  
 
