@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: Erik Smit's Notes-es's
 email: erik.lucas.smit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -34,6 +34,24 @@ github_username:  erik-smit
 theme: minima
 plugins:
   - jekyll-feed
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
