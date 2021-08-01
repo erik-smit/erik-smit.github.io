@@ -9,6 +9,7 @@ Summary
  * Use `UEFITool` to search for "CFG Lock", as text, and extract the PE32 file
  * Use `Universal IFR Extractor` on the PE32 file.
  * Read the text file and search for " lock" stuff.
+ * When setting with `setup_var $varstore $offset $data`, pay attention to `Offset $offset is: $old_data` to doublecheck the old status.
 
 Issues
 -----
