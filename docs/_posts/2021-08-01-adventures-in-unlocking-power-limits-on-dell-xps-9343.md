@@ -1,9 +1,18 @@
 ThrottleStop didn't work on my Dell XPS 9343.  
 Intel XTU said the Power Limits were locked.
 
+Found some tutorials for Dell XPS to unlock this. 
+
+Summary
+-------
+ * Dump UEFI with FPTW64.exe for your Intel ME version.
+ * Use `UEFITool` to search for "CFG Lock", as text, and extract the PE32 file
+ * Use `Universal IFR Extractor` on the PE32 file.
+ * Read the text file and search for " lock" stuff.
+
 Issues
 -----
- * First modded GRUB I found complained about finding the wrong GUID things. [This one](https://github.com/XDleader555/grub_setup_var/releases) worked for me.
+ * [modGRUBShell.efi](https://github.com/datasone/grub-mod-setup_var/releases/download/1.1/modGRUBShell.efi) didn't work for me. [This one](https://github.com/XDleader555/grub_setup_var/releases) worked for me.
  * `setup_var` couldn't find `CpuSetup`. Found the name `Setup` in the IFR as `VarStore: VarStoreId: 0x2 Name: Setup`
  * Ended up setting the following to 0x0: 
  
