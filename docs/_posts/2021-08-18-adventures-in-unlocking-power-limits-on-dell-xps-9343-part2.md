@@ -36,7 +36,10 @@ Things I learned
 ```
 * PLx changes in ThrottleStop didn't become visible in HWInfo64 or active until I ticked the "Disable and Lock Turbo Power Limits" box in the FIVR menu.
 * Mission accomplished! No more Power Limit Throttling during Cinebench or 3DMark.
-* I can keep Snowrunner running at ~20w, without throttling. Yay! Now it's a steady 14fps instead of dipping to 13 every now and then!
+* But now I was running into thermal limits with the CPU package at 100c.
+* Adding thermal pads to the CPU heatsink and heatpipe to sink heat into the alumium bottom cover is pretty effective.
+* I got [these](https://www.aliexpress.com/item/1005002223426783.html) thermal pads.
+* I can keep Snowrunner running at ~20w, at around 80c, without throttling. Yay! Now it's a steady 14fps instead of dipping to 13 every now and then!
 
 What didn't work
 ----------------
