@@ -4,6 +4,7 @@ ILCE-QX1 Notes
 =====
 * To accept the WiFi Direct connection on the ILCE-QX1, hold the WiFi button in battery compartment for 3 seconds
 * Add push button to highest order of preference, otherwise it'll ask for a pin you don't know
+* `ActionList_URL` is determined through SSDP. `M-SEARCH` for `ST: urn:schemas-sony-com:service:ScalarWebAPI:1`.
 
 Windows UWP WiFiDirect sample Notes
 =================
