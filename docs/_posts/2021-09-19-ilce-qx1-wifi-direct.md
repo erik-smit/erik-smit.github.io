@@ -7,6 +7,6 @@ ILCE-QX1 Notes
 
 Windows UWP WiFiDirect sample Notes
 =================
-The WiFiDirect sample has some issues for me
+* The **DeviceEnumerationAndPairing** sample makes more sense, because it also contains WiFi Direct.
 * Pairing status doesn't seem to be passed back correctly in the `DeviceInformationUpdate`. It always shows unpaired, but trying to connect again says "PairAsync failed: Already Paired". Changing the test to `if (result.Status != DevicePairingResultStatus.Paired && result.Status != DevicePairingResultStatus.AlreadyPaired)` works to continue.
 * "Connect operation threw an exception" is a red herring. The sample is hardcoded to make a TCP connection to 50001. It's not a WiFi Direct thing received from the peer.
