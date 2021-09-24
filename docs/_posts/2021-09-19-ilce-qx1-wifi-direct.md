@@ -2,15 +2,21 @@ Some notes while playing with WiFi Direct with my Sony ILCE-QX1
 
 ILCE-QX1 Notes
 =====
+* WiFi Button in battery compartment cycles between 3 modes. No wifi, Single Wifi and Multi Wifi. 
+
+ILCE-QX1 Single Wifi (Direct) Notes
+==========================
+* In "Single Wifi" mode, the camera advertises a DIRECT:ILCE-QX1 SSID AP and WiFi Direct.
 * To accept the WiFi Direct connection on the ILCE-QX1, hold the WiFi button in battery compartment for 3 seconds
 * Add push button to highest order of preference, otherwise it'll ask for a pin you don't know
 * `ActionList_URL` is determined through SSDP. `M-SEARCH` for `ST: urn:schemas-sony-com:service:ScalarWebAPI:1`.
 
-ILCE-QX1 Wifi Notes
-===================
-* WiFi Button in battery compartment cycles between 3 modes. No wifi, Single Wifi and Multi Wifi. 
-* In "Multi Wifi" mode, the DIRECT:ILCE-QX1 SSID AP and WiFi Direct are no longer visible. 
-* In "Multi Wifi" mode, when I hold the "wifi" button for a few seconds, the camera starts a slow repeating chime. I suspect it's looking for some WPS PushButton thing.
+ILCE-QX1 Multi Wifi Notes
+=========================
+* In "Multi Wifi" mode, the camera wants to connect to an AP as client.
+* I found I can 'configure' the settings by WPS PBC.
+* Hold the "wifi" button for a few seconds, the camera starts a slow repeating chime.
+* Press the hard or soft WPS pushbutton and wait for a few secs for a new chime to indicate success.
 
 Windows UWP WiFiDirect sample Notes
 =================
