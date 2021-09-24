@@ -6,6 +6,10 @@ ILCE-QX1 Notes
 * Add push button to highest order of preference, otherwise it'll ask for a pin you don't know
 * `ActionList_URL` is determined through SSDP. `M-SEARCH` for `ST: urn:schemas-sony-com:service:ScalarWebAPI:1`.
 
+ILCE-QX1 Wifi Notes
+===================
+* WiFi Button in battery compartment cycles between 3 modes. No wifi, Single Wifi and Multi Wifi. In "Multi Wifi" mode, the DIRECT:ILCE-QX1 SSID AP and WiFi Direct are no longer visible.
+
 Windows UWP WiFiDirect sample Notes
 =================
 * Pairing status doesn't seem to be passed back correctly in the `DeviceInformationUpdate`. It always shows unpaired, but trying to connect again says "PairAsync failed: Already Paired". Changing the test to `if (result.Status != DevicePairingResultStatus.Paired && result.Status != DevicePairingResultStatus.AlreadyPaired)` works to continue.
