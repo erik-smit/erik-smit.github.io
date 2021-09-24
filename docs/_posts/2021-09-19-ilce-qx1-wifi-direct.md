@@ -8,7 +8,9 @@ ILCE-QX1 Notes
 
 ILCE-QX1 Wifi Notes
 ===================
-* WiFi Button in battery compartment cycles between 3 modes. No wifi, Single Wifi and Multi Wifi. In "Multi Wifi" mode, the DIRECT:ILCE-QX1 SSID AP and WiFi Direct are no longer visible.
+* WiFi Button in battery compartment cycles between 3 modes. No wifi, Single Wifi and Multi Wifi. 
+* In "Multi Wifi" mode, the DIRECT:ILCE-QX1 SSID AP and WiFi Direct are no longer visible. 
+* In "Multi Wifi" mode, when I hold the "wifi" button for a few seconds, the camera starts a slow repeating chime.
 
 Windows UWP WiFiDirect sample Notes
 =================
