@@ -4,11 +4,18 @@ I got a Blueendless HC101A USB-C hub to experiment with my Samsung Tab S7+.
 
 Here's some notes.
 
-## Some notes
+## Audio
 * 3.5mm audio output only works when VGA or HDMI is connected. Choose "Display Output" in Samsung Output Devices.
-* HDMI -> DP cable doesn't work for me to attach a monitor.
+
+## LAN
+* LAN works on my Tab S7+.
+* Settings -> Connections -> More connection settings -> Ethernet
+
+# SD
+* SD works on my Tab S7+.
 
 ## Video things
+* HDMI -> DP cable doesn't work for me to attach a monitor.
 * VGA and HDMI can be used at the same time. They get mirrored.
 * By default the Tab S7+ screen gets mirrored to the video output.
 * Until you start Dex, when you get a separate 1080p60 output from the Tab S7+.
