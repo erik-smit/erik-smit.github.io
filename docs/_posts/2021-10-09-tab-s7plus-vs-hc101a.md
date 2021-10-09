@@ -13,6 +13,7 @@ Powerbank: Bluebuilt CBL1130
 Tester: Mustcol UD18
 AC adapter: FSP060-D1AR4
 
-* When not connected the HC101A pulls ~1.1w from my powerbank
-* When powering HC101A from my powerbank, it doesn't significantly charge Tab S7+.
+* When not connected the HC101A pulls ~1.1w from my powerbank.
+* When powering HC101A from my powerbank via USB-C - USB-C cable, it pulls ~2w. Not significantly charging the Tab S7+.
+* When powering HC101A from my powerbank via USB-A - USB-C cable, it pulls ~4w. A bit more, but still not significatly charging the Tab S7+.
 * When powering HC101A from my AC adapter, it charges Tab S7+ with 9V/1.8A
