@@ -8,6 +8,11 @@ Here's some notes.
 * 3.5mm audio output only works when VGA or HDMI is connected. Choose "Display Output" in Samsung Output Devices.
 * HDMI -> DP cable doesn't work for me to attach a monitor.
 
+## Video things
+* VGA and HDMI can be used at the same time. They get mirrored.
+* By default the Tab S7+ screen gets mirrored to the video output.
+* Until you start Dex, when you get a separate 1080p60 output from the Tab S7+.
+
 ## Power things.
 Powerbank: Bluebuilt CBL1130
 Tester: Mustcol UD18
