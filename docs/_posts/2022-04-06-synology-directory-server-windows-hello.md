@@ -12,9 +12,9 @@ This is also explained on [admx.help](https://admx.help/?Category=Windows_10_201
 I ended up with the following policies in my GPO:
 
  * Windows Settings / Administrative Templates / System / Logon / Turn on convenience PIN sign-in : Enabled
- * Windows Settings / Administrative Templates / Wiundows Components / Biometrics / Allow domain users to log on using biometrics : Enabled
- * Windows Settings / Administrative Templates / Wiundows Components / Biometrics / Allow the use of biometrics : Enabled
- * Windows Settings / Administrative Templates / Wiundows Components / Biometrics / Allow users to log on using biometrics : Enabled
- * Windows Settings / Administrative Templates / Wiundows Components / Windows Hello for Business / Use Windows Hello for Business : Not configured
+ * Windows Settings / Administrative Templates / Windows Components / Biometrics / Allow domain users to log on using biometrics : Enabled
+ * Windows Settings / Administrative Templates / Windows Components / Biometrics / Allow the use of biometrics : Enabled
+ * Windows Settings / Administrative Templates / Windows Components / Biometrics / Allow users to log on using biometrics : Enabled
+ * Windows Settings / Administrative Templates / Windows Components / Windows Hello for Business / Use Windows Hello for Business : Not configured
  
  
