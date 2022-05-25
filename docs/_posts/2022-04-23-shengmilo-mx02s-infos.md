@@ -16,6 +16,10 @@ Seems like pedal mounting is very standard.
 As the standard steering was a bit low for me, I replaced it with an adjustable bike stem riser.
 I got an Hiland Universal Bike Stem Riser. 90mm/31.8mm.
 
+# Battery
+OEM Reention Polly DP-6C.  
+Charging port: DC2.1.
+
 # LCD-M5 details
 
 | P | What | Range | meaning | notes |
