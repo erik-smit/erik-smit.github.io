@@ -57,5 +57,9 @@ Charging port: DC2.1.
 | 2-pole | black<br>orange | | unconnected |
 | 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | goes to back motor |
 
+# Motor
+
+Has a PCB inside with "LDX104-120-003X" silkscreen.
+
 # Dates
 Delivery: February 2021.
