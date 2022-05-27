@@ -45,5 +45,17 @@ Charging port: DC2.1.
 | P19 | PAS 0 disable | 0-1 | 0 PAS 0 enabled<br>1 PAS 0 disabled |
 | P20 | Communication type | 0-3 | 0 2 protocol<br>1 5S agreement<br>2 standby<br>3 standby |
 
+# Controller
+
+| pin | C colors | B colors | purpose |
+|-----|----------|----------|---------|
+| 5-pole | black<br>light blue<br>blue<br>yellow<br>red | | display |
+| 2-pole | black<br>green/yellow | black<br>red | e-brake |
+| 2-pole | black<br>green/yellow | black<br>red | e-brake |
+| 3-pole | black<br>grey<br>red | black<br>white<br> | |
+| 3-pole | black<br>red</br>purple | black<br>red<br>white | pedal sensor |
+| 2-pole | black<br>orange | | unconnected |
+| 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | goes to back motor |
+
 # Dates
 Delivery: February 2021.
