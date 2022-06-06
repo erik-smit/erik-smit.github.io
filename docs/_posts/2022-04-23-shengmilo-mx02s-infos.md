@@ -57,6 +57,23 @@ Charging port: DC2.1.
 | 2-pole | black<br>orange | | unconnected |
 | 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | goes to back motor |
 
+| pin | purpose |
+|-----|---------|
+| P1 | Hall / No Hall? |
+| AX1 | |
+| AX2 | |
+| TB | Anti-theft mode?|
+| TA | Pedal Sensor? |
+| SA/SB/SC | Motor Hall |
+| CR | Cruise? |
+| RX/TX | UART |
+| BKL | |
+| SP | Throttle? |
+| SP5V | |
+| +5V | |
+| VB2+ | |
+
+
 # Motor
 
 Has a PCB inside with "LDX104-120-003X" silkscreen.
