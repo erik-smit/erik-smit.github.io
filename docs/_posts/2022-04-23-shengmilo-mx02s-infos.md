@@ -45,6 +45,8 @@ Charging port: DC2.1.
 | P19 | PAS 0 disable | 0-1 | 0 PAS 0 enabled<br>1 PAS 0 disabled |
 | P20 | Communication type | 0-3 | 0 2 protocol<br>1 5S agreement<br>2 standby<br>3 standby |
 
+![EB09X1](/images/2022-04-23-shengmilo-mx02s-infos/pcb.jpg)
+
 # Controller
 
 | pin | C colors | B colors | purpose |
