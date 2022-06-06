@@ -46,6 +46,7 @@ Charging port: DC2.1.
 | P20 | Communication type | 0-3 | 0 2 protocol<br>1 5S agreement<br>2 standby<br>3 standby |
 
 ![EB09X1](/images/2022-04-23-shengmilo-mx02s-infos/pcb.jpg)
+![EB09X1](/images/2022-04-23-shengmilo-mx02s-infos/pcb2.jpg)
 
 # Controller
 
