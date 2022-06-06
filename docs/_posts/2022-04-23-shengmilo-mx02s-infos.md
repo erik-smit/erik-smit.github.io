@@ -53,9 +53,9 @@ Charging port: DC2.1.
 | 2-pole | black<br>green/yellow | black<br>red | e-brake |
 | 2-pole | black<br>green/yellow | black<br>red | e-brake |
 | 3-pole | black<br>grey<br>red | black<br>white<br>red | throttle |
-| 3-pole | black<br>red</br>purple | black<br>red<br>white | pedal sensor |
-| 2-pole | black<br>orange | | unconnected |
-| 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | goes to back motor |
+| 3-pole | black<br>red<br>purple | black<br>red<br>white | pedal sensor |
+| 2-pole | black<br>orange | | headlight |
+| 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | motor hall |
 
 | pin | purpose |
 |-----|---------|
