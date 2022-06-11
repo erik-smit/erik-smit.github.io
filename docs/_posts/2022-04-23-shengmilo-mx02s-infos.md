@@ -52,7 +52,7 @@ Charging port: DC2.1.
 
 | pin | C colors | B colors | purpose |
 |-----|----------|----------|---------|
-| 5-pole | black<br>light blue<br>blue<br>yellow<br>red | | display |
+| 5-pole | black<br>light blue<br>blue<br>yellow<br>red | GND<br>cont->disp<br>disp->cont<br>VBAT when display on<br>VBAT | display |
 | 2-pole | black<br>green/yellow | black<br>red | e-brake |
 | 2-pole | black<br>green/yellow | black<br>red | e-brake |
 | 3-pole | black<br>grey<br>red | black<br>white<br>red | throttle |
