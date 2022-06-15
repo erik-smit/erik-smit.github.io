@@ -83,3 +83,16 @@ Has a PCB inside with "LDX104-120-003X" silkscreen.
 
 # Dates
 Delivery: February 2021.
+
+---
+
+# LCD protocols
+
+| name | source |
+|------|--------|
+| 2 | 
+| 5S | Kingmeter KM5S? |
+| J-LCD | |
+| apt | |
+| bafang | eight party |
+| KT | Kunteng |
