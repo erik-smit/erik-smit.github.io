@@ -90,6 +90,9 @@ Delivery: February 2021.
 |------|------|
 | Alfina | [ALFINA FX02S Turbo](https://alfina.net/shop/alfina-fx02s/) |
 | CEAYA | [CEAYA MX02S](https://www.ceayabikes.com/en-nl/products/electric-bikes-ceaya-mx02s-2022) |
+| GUNAI | |
+| VOZCVOX | |
+
 
 ---
 
