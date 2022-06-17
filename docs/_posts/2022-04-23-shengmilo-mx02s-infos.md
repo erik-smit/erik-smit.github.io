@@ -84,6 +84,12 @@ Has a PCB inside with "LDX104-120-003X" silkscreen.
 # Dates
 Delivery: February 2021.
 
+# Also sold under 
+
+| name | bike | 
+|------|------|
+| Alfina | [ALFINA FX02S Turbo](https://alfina.net/shop/alfina-fx02s/) |
+
 ---
 
 # LCD protocols
@@ -96,3 +102,5 @@ Delivery: February 2021.
 | apt | |
 | bafang | eight party |
 | KT | Kunteng |
+
+
