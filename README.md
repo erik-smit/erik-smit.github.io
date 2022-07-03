@@ -2,6 +2,5 @@
 
 ## for testing
 ```
-cd docs
 bundle exec jekyll serve
 ```
