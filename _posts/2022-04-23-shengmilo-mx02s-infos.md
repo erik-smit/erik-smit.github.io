@@ -2,6 +2,10 @@
 
 Here's some notes about my Sheng Milo MX02S.
 
+# Brake lever adjustment. (~2400km/2022-06-28)
+The right brake lever was no longer depressing the brake cutoff switch, requiring constant outward pressure during cycling.
+Solved by removing the throttle and rotating the middle adjustment screw of the right brake lever counterclockwise.
+
 # Brake Pads replacement. (~1950km)
 I needed to replace my Sheng Milo MX02S Brake Pads at ~1950km
 
