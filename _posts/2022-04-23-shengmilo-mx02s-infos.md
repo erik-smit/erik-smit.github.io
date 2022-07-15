@@ -65,6 +65,15 @@ Charging port: DC2.1.
 | | 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | motor hall |
 | Deans plug | | | | battery |
 
+# Protocol
+
+## Display -> Controller
+01h 14h 01h 02h 03h 80h 01h 01h 04h 05h 01h 00h 64h 16h 01h B8h 00h 00h 4Ch 12h
+
+## Controller -> Display
+02h 0Eh 01h 00h 40h 00h 00h 00h 00h 00h 00h 00h 00h 4Dh
+
+
 | pin | purpose |
 |-----|---------|
 | P1 | Hall / No Hall? |
