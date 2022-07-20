@@ -73,7 +73,7 @@ Charging port: DC2.1.
 ## Controller -> Display
 | byte | byte | what | examples |
 | ---- | ---- | ---- | -------- |
-| 00-07 | 02h 0Eh 01h 00h 40h 00h 00h 00h | |
+| 00-07 | 02h 0Eh 01h 00h 40h 00h 00h 00h | foo |
 | 08-09 | 00h 00h | wheel speed | 0507 = 05.7km/h<br>02e4 = 10.0km/h<br>0080 = 58.3km/h<br>0060 = 77.7km/h<br>005f = 78.5km/h<br>0058 = 84.8km/h |
 | 10-12 | 00h 00h 00h | |
 | 13 | 4Dh | XOR of 00-12 | |
