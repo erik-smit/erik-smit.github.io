@@ -71,7 +71,12 @@ Charging port: DC2.1.
 01h 14h 01h 02h 03h 80h 01h 01h 04h 05h 01h 00h 64h 16h 01h B8h 00h 00h 4Ch 12h
 
 ## Controller -> Display
-02h 0Eh 01h 00h 40h 00h 00h 00h 00h 00h 00h 00h 00h 4Dh
+| byte | byte | what | examples |
+| ---- | ---- | ---- | -------- |
+| 00-07 | 02h 0Eh 01h 00h 40h 00h 00h 00h |
+| 08-09 | 00h 00h | wheel speed | 0507 = 05.7km/h<br>02e4 = 10.0km/h<br>0080 = 58.3km/h<br>0060 = 77.7km/h<br>005f = 78.5km/h<br>0058 = 84.8km/h |
+| 10-12 | 00h 00h 00h | 
+| 13 | 4Dh | XOR of 00-12 |
 
 
 | pin | purpose |
