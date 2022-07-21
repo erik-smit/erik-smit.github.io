@@ -77,7 +77,7 @@ Charging port: DC2.1.
 | 03 | 02h | P10 running mode | 0 only pas<br>1 only throttle<br>2 pas and throttle |
 | 04 | 03h | PAS | ffh = no assist<br> 01h = min<br>0fh = max | 
 | 05 | 80h | bitwise | bit 6 = P09 don't assist < 6km/h <br>bit 7 = manual light | 
-| 06 | 01h | 
+| 06 | 01h | P07 Magnetic poles ratio | 01 = 01<br>100 = 64h |
 | 07-08 | 01h 04h | P06 Rim Size | 5(.)0 = 0032<br>26(.)0 = 0104<br>50(.)0 = 01f4 |
 | 08 | 04h |
 | 09 | 05h | P11 PAS start sensitivity| 01-24 |
