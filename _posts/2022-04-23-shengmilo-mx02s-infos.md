@@ -83,7 +83,7 @@ Charging port: DC2.1.
 | 09 | 05h | P11 PAS start sensitivity| 01-24 |
 | 10 | 01h | P12 PAS start strength | 01-05 |
 | 11 | 00h |
-| 12 | 64h |
+| 12 | 64h | P08 speed limit | 0 = 0<br>100 = 64 |
 | 13 | 16h | P14 / current limit |  
 | 14-15 | 01h B8h | P15/undervoltage | 34(.)0 = 0154h<br>44(.)0 = 01B8h<br> |
 | 16 | 00h
