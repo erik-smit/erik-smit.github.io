@@ -79,8 +79,10 @@ Charging port: DC2.1.
 | 06-08 | 01h 01h 04h | |
 | 09 | 05h | PAS start sensitivity (P11) | 01-24 |
 | 10 | 01h | PAs start strength (P12) | 01-05 |
-| 11-17 | 00h 64h 16h 01h B8h 00h 00h 
-| 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type 5-12 | 
+| 11-14 | 00h 64h 16h 01h |
+| 15 | B8 | P15/undervoltage | 34.0 = 54h<br>44.0 = B8h<br> |
+| 16-17 | 00h 00h |
+| 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type (P13)<br> bit 6 = cruisemode (P17) | 
 | 19 | 12h |
 
 ## Controller -> Display
