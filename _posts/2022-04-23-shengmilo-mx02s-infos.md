@@ -71,19 +71,26 @@ Charging port: DC2.1.
 
 | byte | byte | what | examples |
 | ---- | ---- | ---- | -------- |
-| 00 | 01h | P14 | 01-03 = 05-08<br>04-07 = 00-03<br>08-11 = 0c-0f<br>12-15 = 08-0b<br>16-19 = 14-17<br>20-22 = 10-12 | 
-| 01-02 | 01h 14h 01h | 
-| 03 | 02h | running mode (P10) | 0 only pas<br>1 only throttle<br>2 pas and throttle |
+| 00 | 01h |
+| 01 | 14h |
+| 02 | 01h | 
+| 03 | 02h | P10 running mode | 0 only pas<br>1 only throttle<br>2 pas and throttle |
 | 04 | 03h | PAS | ffh = no assist<br> 01h = min<br>0fh = max | 
-| 05 | 80h | bitwise | bit 6 = don't assist < 6km/h (P09) <br>bit 7 = manual light | 
-| 06-08 | 01h 01h 04h | |
-| 09 | 05h | PAS start sensitivity (P11) | 01-24 |
-| 10 | 01h | PAs start strength (P12) | 01-05 |
-| 11-14 | 00h 64h 16h 01h |
-| 15 | B8 | P15/undervoltage | 34.0 = 54h<br>44.0 = B8h<br> |
-| 16-17 | 00h 00h |
+| 05 | 80h | bitwise | bit 6 = P09 don't assist < 6km/h <br>bit 7 = manual light | 
+| 06 | 01h | 
+| 07 | 01h |
+| 08 | 04h |
+| 09 | 05h | P11 PAS start sensitivity| 01-24 |
+| 10 | 01h | P12 PAS start strength | 01-05 |
+| 11 | 00h |
+| 12 | 64h |
+| 13 | 16h | P14 / current limit |  
+| 14 | 01h |
+| 15 | B8h | P15/undervoltage | 34.0 = 54h<br>44.0 = B8h<br> |
+| 16 | 00h
+| 17 | 00h |
 | 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type (P13)<br> bit 6 = cruisemode (P17) | 
-| 19 | 12h |
+| 19 | 12h | XOR | 
 
 ## Controller -> Display
 
