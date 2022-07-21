@@ -75,7 +75,9 @@ Charging port: DC2.1.
 | 03 | 02h | running mode (P10) | 0 only pas<br>1 only throttle<br>2 pas and throttle |
 | 04 | 03h | PAS | ffh = no assist<br> 01h = min<br>0fh = max</br> | 
 | 05 | 80h | bitwise | bit 6 = don't assist < 6km/h (P09) <br>bit 7 = manual light | 
-| 06-18 | 01h 01h 04h 05h 01h 00h 64h 16h 01h B8h 00h 00h 4Ch |
+| 06-08 | 01h 01h 04h | |
+| 09 | 05h | PAS start sensitivity (P12) | 01-24 |
+| 10-18 | 01h 00h 64h 16h 01h B8h 00h 00h 4Ch |
 | 19 | 12h |
 
 ## Controller -> Display
