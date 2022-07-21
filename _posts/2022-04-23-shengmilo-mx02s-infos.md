@@ -79,14 +79,13 @@ Charging port: DC2.1.
 | 05 | 80h | bitwise | bit 6 = P09 don't assist < 6km/h <br>bit 7 = manual light | 
 | 06 | 01h | P07 Magnetic poles ratio | 01 = 01<br>100 = 64h |
 | 07-08 | 01h 04h | P06 Rim Size | 5(.)0 = 0032<br>26(.)0 = 0104<br>50(.)0 = 01f4 |
-| 08 | 04h |
 | 09 | 05h | P11 PAS start sensitivity| 01-24 |
 | 10 | 01h | P12 PAS start strength | 01-05 |
 | 11 | 00h |
 | 12 | 64h | P08 speed limit | 0 = 0<br>100 = 64 |
 | 13 | 16h | P14 / current limit |  
 | 14-15 | 01h B8h | P15/undervoltage | 34(.)0 = 0154h<br>44(.)0 = 01B8h<br> |
-| 16 | 00h
+| 16 | 00h |
 | 17 | 00h |
 | 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type (P13)<br> bit 6 = cruisemode (P17) | 
 | 19 | 12h | XOR | 
