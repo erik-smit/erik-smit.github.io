@@ -71,14 +71,16 @@ Charging port: DC2.1.
 
 | byte | byte | what | examples |
 | ---- | ---- | ---- | -------- |
-| 00-02 | 01h 14h 01h | 
+| 00 | 01h | P14 | 01-03 = 05-08<br>04-07 = 00-03<br>08-11 = 0c-0f<br>12-15 = 08-0b<br>16-19 = 14-17<br>20-22 = 10-12 | 
+| 01-02 | 01h 14h 01h | 
 | 03 | 02h | running mode (P10) | 0 only pas<br>1 only throttle<br>2 pas and throttle |
 | 04 | 03h | PAS | ffh = no assist<br> 01h = min<br>0fh = max | 
 | 05 | 80h | bitwise | bit 6 = don't assist < 6km/h (P09) <br>bit 7 = manual light | 
 | 06-08 | 01h 01h 04h | |
 | 09 | 05h | PAS start sensitivity (P11) | 01-24 |
 | 10 | 01h | PAs start strength (P12) | 01-05 |
-| 11-18 | 00h 64h 16h 01h B8h 00h 00h 4Ch |
+| 11-17 | 00h 64h 16h 01h B8h 00h 00h 
+| 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type 5-12 | 
 | 19 | 12h |
 
 ## Controller -> Display
