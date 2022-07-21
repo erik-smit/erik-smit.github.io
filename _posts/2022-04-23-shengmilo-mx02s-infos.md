@@ -78,15 +78,14 @@ Charging port: DC2.1.
 | 04 | 03h | PAS | ffh = no assist<br> 01h = min<br>0fh = max | 
 | 05 | 80h | bitwise | bit 6 = P09 don't assist < 6km/h <br>bit 7 = manual light | 
 | 06 | 01h | 
-| 07 | 01h |
+| 07-08 | 01h 04h | P06 Rim Size | 5(.)0 = 0032<br>26(.)0 = 0104<br>50(.)0 = 01f4 |
 | 08 | 04h |
 | 09 | 05h | P11 PAS start sensitivity| 01-24 |
 | 10 | 01h | P12 PAS start strength | 01-05 |
 | 11 | 00h |
 | 12 | 64h |
 | 13 | 16h | P14 / current limit |  
-| 14 | 01h |
-| 15 | B8h | P15/undervoltage | 34.0 = 54h<br>44.0 = B8h<br> |
+| 14-15 | 01h B8h | P15/undervoltage | 34(.)0 = 0154h<br>44(.)0 = 01B8h<br> |
 | 16 | 00h
 | 17 | 00h |
 | 18 | 4Ch | bit-wise | bits 0-3 = PAS sensor type (P13)<br> bit 6 = cruisemode (P17) | 
