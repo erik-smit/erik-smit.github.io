@@ -82,8 +82,11 @@ Charging port: DC2.1.
 | VB2+ | |
 
 # Motor
-
 Has a PCB inside with "LDX104-120-003X" silkscreen.
+
+# OEM Parts
+
+Star Union E-BIKE-DK226/2 - Light and Horn button
 
 # Dates
 Delivery: February 2021.
@@ -97,18 +100,5 @@ Delivery: February 2021.
 | GUNAI | |
 | VOZCVOX | |
 
-
----
-
-# LCD protocols
-
-| name | source |
-|------|--------|
-| 2 | 
-| 5S | Kingmeter KM5S? |
-| J-LCD | |
-| apt | |
-| bafang | eight party |
-| KT | Kunteng |
 
 
