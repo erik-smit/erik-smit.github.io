@@ -73,11 +73,9 @@ Charging port: DC2.1.
 | AX1 | |
 | AX2 | |
 | TB | Anti-theft mode?|
-| TA | Pedal Sensor? |
 | SA/SB/SC | Motor Hall |
 | CR | Cruise? |
 | RX/TX | UART |
-| BKL | |
 | VB2+ | |
 
 # Motor
