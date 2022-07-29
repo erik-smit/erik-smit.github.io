@@ -56,12 +56,12 @@ Charging port: DC2.1.
 
 | connector | pin | C colors | B colors | purpose |
 |-----------|-----|----------|----------|---------|
-| | 5-pole | black<br>light blue<br>blue<br>yellow<br>red | GND<br>cont->disp<br>disp->cont<br>VBAT when display on<br>VBAT | display |
-| | 2-pole | black<br>green/yellow | black<br>red | e-brake |
-| | 2-pole | black<br>green/yellow | black<br>red | e-brake |
-| | 3-pole | black<br>grey<br>red | black<br>white<br>red | throttle |
-| | 3-pole | black<br>red<br>purple | black<br>red<br>white | pedal sensor |
-| | 2-pole | black<br>orange | | headlight |
+| | JST-SM 5P M | black<br>light blue<br>blue<br>yellow<br>red | GND<br>cont->disp<br>disp->cont<br>VBAT when display on<br>VBAT | display |
+| | JST-SM 2P F | black<br>green/yellow | black<br>red | e-brake |
+| | JST-SM 2P F | black<br>green/yellow | black<br>red | e-brake |
+| | JST-SM 3P M | black<br>grey<br>red | black<br>white<br>red | throttle |
+| | JST-SM 3P F | black<br>red<br>purple | black<br>red<br>white | pedal sensor |
+| | 2-pole | black<br>orange | | headlight (?)? |
 | | 3x2-pole | red<br>yellow<br>white<br>green<br>black<br>blue | | motor hall |
 | Deans plug | | | | battery |
 
