@@ -62,21 +62,10 @@ Charging port: DC2.1.
 | JST-SM 2P F | GND<br>VB+ | black<br>red | black<br>red | light/horn power |
 | JST-SM 3P M | GND<br>SP<br>SP5V| black<br>grey<br>red | black<br>white<br>red | throttle |
 | JST-SM 3P F | GND<br>+5VP <br>TA | black<br>red<br>purple | black<br>red<br>white | pedal sensor |
-| 2-pole | GND<br>VK+ | black<br>orange | | headlight (?)? |
-| 3x2-pole | +5VP<br>SC<br>CR<br>SB<br>GND<br>SA | red<br>yellow<br>white<br>green<br>black<br>blue | | motor hall |
-| Deans plug | VB-<br>VB+ | black<br>red | | battery |
-| bullets | A<br>B<br>C| blue<br>green<br>yellow | blue<br>green<br>yellow | motor power |
-
-| pin | purpose |
-|-----|---------|
-| P1 | Hall / No Hall? |
-| AX1 | |
-| AX2 | |
-| TB | Anti-theft mode?|
-| SA/SB/SC | Motor Hall |
-| CR | Cruise? |
-| RX/TX | UART |
-| VB2+ | |
+| Molex/Spade 1x2 F | GND<br>VK+ | black<br>orange | | headlight (?)? |
+| Molex/Spade 3x2 F | +5VP<br>SC<br>CR<br>SB<br>GND<br>SA | red<br>yellow<br>white<br>green<br>black<br>blue | | motor hall |
+| Deans plug F | VB-<br>VB+ | black<br>red | | battery |
+| bullets F | A<br>B<br>C| blue<br>green<br>yellow | blue<br>green<br>yellow | motor power |
 
 # Motor
 Has a PCB inside with "LDX104-120-003X" silkscreen.
