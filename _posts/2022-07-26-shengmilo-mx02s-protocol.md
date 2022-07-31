@@ -32,7 +32,7 @@ Baud Rate: 9600
 | 00 | 02h | 
 | 01 | 0Eh |
 | 02 | 01h |
-| 03 | 00h |
+| 03 | 00h | bitwise | bit 5 = throttle stuck / E 008 |
 | 04 | 40h | bitwise | bit 5 = braking<br>bit 6 = ??? | 
 | 05 | 00h |
 | 06-07 | 00h 00h | current | 0110 = 01.0A<br>02ab = 02.0A<br> ??? |
