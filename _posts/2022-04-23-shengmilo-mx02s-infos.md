@@ -102,7 +102,8 @@ Baud Rate: 9600
 | 03 | 00h | bitwise | bit 5 = throttle stuck / E 008 |
 | 04 | 40h | bitwise | bit 5 = braking<br>bit 6 = ??? | 
 | 05 | 00h |
-| 06-07 | 00h 00h | current | 0110 = 01.0A<br>02ab = 02.0A<br> ??? |
+| 06 | 00h | current | 01h = 01.0A<br>02h = 02.0A |
+| 07 | 00h | PWM(?) | 00h-ffh = 0% - 100%? |
 | 08-09 | 00h 00h | wheel speed (MS) | 0507 = 05.7km/h<br>02e4 = 10.0km/h<br>0080 = 58.3km/h<br>0060 = 77.7km/h<br>005f = 78.5km/h<br>0058 = 84.8km/h |
 | 10-12 | 00h 00h 00h | |
 | 13 | 4Dh | XOR of 00-12 | |
