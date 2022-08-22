@@ -1,6 +1,9 @@
-# My Sheng Milo MX02S Infos
+# My Sheng Milo MX02S maintenance log
 
 Here's some notes about my Sheng Milo MX02S.
+
+# Brake lever locktit (~2650km/2022-08-09)
+The adjustment screw kept rattling loose. Used a loctite-like product to keep it in place.
 
 # Brake lever adjustment. (~2400km/2022-06-28)
 The right brake lever was no longer depressing the brake cutoff switch, requiring constant outward pressure during cycling.
