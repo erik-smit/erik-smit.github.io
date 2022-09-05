@@ -11,7 +11,8 @@ Star Union E-BIKE-DK226/2 - Light and Horn button
 
 # Battery
 OEM Reention Polly DP-6C.  
-Charging port: DC2.1.
+Layout: 13S5P
+Charging port: DC2.1/DC2.5 (unsure)
 
 # Also sold under 
 
