@@ -2,6 +2,9 @@
 
 Here's some notes about my Sheng Milo MX02S.
 
+# Tighten rear wheel spokes (~2900km/2022-09-10)
+Noticed many (>10) rear spokes were loose. Tightened them with the supplied tool.
+
 # Brake lever locktit (~2650km/2022-08-09)
 The adjustment screw kept rattling loose. Used a loctite-like product to keep it in place.
 
