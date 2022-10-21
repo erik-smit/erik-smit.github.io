@@ -11,3 +11,4 @@ Here's an overview I made for myself.
 | YOULIANG | YPUq | 12v-24v | USB-A (18w) + USB-C (18w) |
 | YOULIANG | ATU(QJ) | 12-24v | USB-A (22.5w) + USB-C (18w) |
 | YOULIANG | YW | 12-24v | Voltage Meter |
+| YOULIANG | TU(QC) | 12-24v | USB-A (18w) + USB-A (18w) |
