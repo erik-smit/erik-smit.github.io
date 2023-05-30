@@ -37,7 +37,7 @@ Charging port: DC2.1/DC2.5 (unsure)
 | JST-SM 3P M | GND<br>SP<br>SP5V| black<br>grey<br>red | black<br>white<br>red | throttle |
 | JST-SM 3P F | GND<br>+5VP <br>TA | black<br>red<br>purple | black<br>red<br>white | pedal sensor |
 | Molex/Spade 1x2 F | GND<br>VK+ | black<br>orange | unconnected | headlight (?)? |
-| Molex/Spade 3x2 F | +5VP<br>SC<br>CR<br>SB<br>GND<br>SA | red<br>yellow<br>white<br>green<br>black<br>blue | red<br>yellow<br>white<br>green<br>black<br>blue | motor hall |
+| Molex/Spade 3x2 F | +5VP<br>SC<br>CR<br>SB<br>GND<br>SA | red<br>yellow<br>white<br>green<br>black<br>blue | red<br>yellow<br>white<br>green<br>black<br>blue | +5v<br>Hall C<br>speed magnet?<br>Hall B<br>GND<br>Hall A |
 | Deans plug F | VB-<br>VB+ | black<br>red | | battery |
 | bullets F | A<br>B<br>C| blue<br>green<br>yellow | blue<br>green<br>yellow | motor power |
 
