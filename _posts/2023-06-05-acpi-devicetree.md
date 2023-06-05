@@ -3,6 +3,7 @@
 Here are some notes from my playing with ACPI SSDT Overlays.  
 * In the ARM world people load things with [DeviceTree overlay](https://docs.kernel.org/devicetree/overlay-notes.html).
 * The equivalent in x64 is [SSDT Overlay](https://www.kernel.org/doc/html/next/admin-guide/acpi/ssdt-overlays.html).
+* The kernel has some more [docs](https://kernel.org/doc/html/v6.3/driver-api/gpio/board.html) about this equivalence. 
 * I needed to manually `modprobe acpi_configfs` for ` /sys/kernel/config/acpi` to appear.
 * Intel has some decent examples in [meta-acpi](https://github.com/westeri/meta-acpi), like [this one](https://github.com/westeri/meta-acpi/blob/master/recipes-bsp/acpi-tables/samples/minnowboard/buttons.asl).
 * Contrary to other drivres I've tried, [spi-gpio](https://github.com/torvalds/linux/blob/master/drivers/spi/spi-gpio.c#L330-L351) doesn't support SSD Overlays, because it has the devicetree behind a CONFIG_OF.
