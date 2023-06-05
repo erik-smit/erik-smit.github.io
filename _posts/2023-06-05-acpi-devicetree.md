@@ -11,3 +11,4 @@ Here are some notes from my playing with ACPI SSDT Overlays.
 * (re-)Loading the overlay becomes active immediately and should triggering modules loading.
 * `/sys/bus/acpi/devices/PRP0001\:00/modalias` shows the modalias, `of:NspigTCspi-gpio` for instance, and this is matched with "/lib/modules/\`uname -r\`/modules.alias".
 * `MODULE_DEVICE_TABLE(of, spi_gpio_dt_ids);` is a macro that ends up in filling the `lib/modules/modules.alias`.
+* `of_match_ptr()` is set to NULL when `CONFIG_OF` is [not set](https://github.com/torvalds/linux/blob/master/drivers/spi/spi-gpio.c#LL466C21-L466C33). Doh.
