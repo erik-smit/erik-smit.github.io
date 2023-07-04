@@ -2,10 +2,16 @@
 
 Here's some notes about my Sheng Milo MX02S.
 
+# Motor is noisy at >20km/h (2023-07)
+At higher speeds, hear sound. Disassembled motor. Showed some gears missing pieces.
+
+# Speedometer died (~3900km/2023-01)
+Speedometer no longer shows >0km. Odometer no longer increases.
+
 # Tighten rear wheel spokes (~2900km/2022-09-10)
 Noticed many (>10) rear spokes were loose. Tightened them with the supplied tool.
 
-# Brake lever locktit (~2650km/2022-08-09)
+# Brake lever locktite (~2650km/2022-08-09)
 The adjustment screw kept rattling loose. Used a loctite-like product to keep it in place.
 
 # Brake lever adjustment. (~2400km/2022-06-28)
