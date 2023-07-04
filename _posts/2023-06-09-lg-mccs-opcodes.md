@@ -34,10 +34,11 @@
 | Aging On/Off | 0xF3 | 00 | FF/00 | FF: On<br>00: Off |
 | Input Select | 0xF4 | 00 | | 0xD0: Displayport<br>0x90: HDMI1<br>0x91: HDMI2<br>0xD1: Thunderbolt |
 | Restart System | 0xF5 | 00 | 00 | |
-| Panel Selection (page 0xA6: 0xF3) | 0xF6 | 00 | xx | depends on screen |
+| Panel Selection (0xA6/0xF3) | 0xF6 | 00 | xx | depends on screen |
+| APD Command (0xA6/0xFE) | 0xF7 | 00 | 0x00-0x01 | 0x00: OFF<br>0x01: ON |
 | HDCP 2.2 read | 0xF8 | | data | read HDCP 2.2 key |
 | HDCP 2.2 write | 0xF9 | 00 | 00 | write HDCP 2.2 key |
-| Model Select (page 0xA6: 0xF0) | 0xF9 | 00 | 00 | |
+| Model Select (0xA6/0xF0) | 0xF9 | 00 | 00 | |
 | APD command | 0xF7 | 00 | 0x00-0x01 | 0x00: OFF<br>0x01: ON |
 
 
