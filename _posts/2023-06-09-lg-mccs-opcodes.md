@@ -1,3 +1,28 @@
+
+
+# Screen Adjustment Command
+| Name | Hex | ADR | VAL | Comment |
+|------|-----|-----|-----|---------|
+| EEPROM ALL Initial | 0xE4 | 00 | 00 | Adjustment Initialization |
+| EEPROM Read | 0xE7 | Slave Addr | 00 | |
+| EEPROM Write | 0xE8 | Slave Addr | 00 | Data |
+| R GAIN | 0x16 | 00 | 00-64 | Tune Gain |
+| G GAIN | 0x18 | 00 | 00-64 | Tune Gain |
+| B GAIN |    | 00 | 00-64 | Tune Gain |
+| Backlight | 0x10 | 00 | 00-64 | Tune Analog Bright |
+| Factory Reset | 0xF0 | 00 | 00 | |
+| AUTO_COLOR_ADJUST | 0xF1 | 00 | 00 | |
+| COLOR_MODE_CHANGE | 0xF2 | 00 | 1/2 | 1: WARM(6500K)<br>2: COOL(9300K) |
+| Elapsed Time Clear | 0xE9 | 00 | 00 | Aging off & Clear elapsed time |
+| Aging On/Off | 0xF3 | 00 | FF/00 | FF: On<br>00: Off |
+| Input Select | 0xF4 | 00 | | 0xD0: Displayport<br>0x90: HDMI1<br>0x91: HDMI2<br>0xD1: Thunderbolt |
+| Restart System | 0xF5 | 00 | 00 | |
+| Select Language | 0x68 | 00 | 0x00 - 0x0F | 0x00: English<br>0x01: German<br>0x02: French<br>0x03: Spanish<br>0x04: Italian<br>0x05: Swedish<br>0x06: Finnish<br>0x07: Portuguese<br>0x08: Brazil<br>0x09: Polish<br>0x0A: Russian<br>0x0B: Greek<br>0x0C: Ukranian<br>0x0D: Chinese<br>0x0E: Japanese<br>0x0F: Korean |
+| EDID SN Update | 0x77 | 00 | 0x01-0x02 | 0x01: HDMI1<br>0x02: HDMI2 |
+| APD command | 0xF7 | 00 | 0x00-0x01 | 0x00: OFF<br>0x01: ON |
+
+
+
 # LG MCCS Opcodes
 
 | DEC | HEX | Name |
@@ -182,3 +207,5 @@
 | 252 | fc | eMCCS_OPCODE_MANUFACTURER_FENGINE_MODE_SELECT |
 | 253 | fd | eMCCS_OPCODE_MANUFACTURER_POWER_LAMP_INDICATOR |
 | 254 | fe | eMCCS_OPCODE_MANUFACTURER_IMAGE_GAMMA_PRESET |
+
+
