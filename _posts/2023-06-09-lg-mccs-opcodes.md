@@ -16,6 +16,7 @@
 | Backlight | 0x10 | 00 | 00-64 | Tune Analog Bright |
 | Contrast | 0x12 | 00 | 00-64 | | 
 | Select Language | 0x68 | 00 | 0x00 - 0x0F | 0x00: English<br>0x01: German<br>0x02: French<br>0x03: Spanish<br>0x04: Italian<br>0x05: Swedish<br>0x06: Finnish<br>0x07: Portuguese<br>0x08: Brazil<br>0x09: Polish<br>0x0A: Russian<br>0x0B: Greek<br>0x0C: Ukranian<br>0x0D: Chinese<br>0x0E: Japanese<br>0x0F: Korean |
+| VRAM Read | 0x70 | 00 | 00 | |
 | EDID SN Update | 0x77 | 00 | 0x01-0x02 | 0x01: HDMI1<br>0x02: HDMI2 |
 | Factory on | 0xE0 | 00 | 00 | |
 | Factory off | 0xE2 | 00 | 00 | |
