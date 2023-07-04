@@ -17,7 +17,10 @@
 | Contrast | 0x12 | 00 | 00-64 | | 
 | Select Language | 0x68 | 00 | 0x00 - 0x0F | 0x00: English<br>0x01: German<br>0x02: French<br>0x03: Spanish<br>0x04: Italian<br>0x05: Swedish<br>0x06: Finnish<br>0x07: Portuguese<br>0x08: Brazil<br>0x09: Polish<br>0x0A: Russian<br>0x0B: Greek<br>0x0C: Ukranian<br>0x0D: Chinese<br>0x0E: Japanese<br>0x0F: Korean |
 | VRAM Read | 0x70 | 00 | 00 | |
+| Send serial data | 0x75 | | data | Send 24 byte (EDID SN(4byte) + date(2byte) + ascii sn(18byte)) |
+| Read c/s of serial data | 0x76 | | data | Read checksum data of 24 byte |
 | EDID SN Update | 0x77 | 00 | 0x01-0x02 | 0x01: HDMI1<br>0x02: HDMI2 |
+| HDR Max Bright | 0xB2 | 00 | 0x00-0x01 | 0x00: OFF<br>0x01: ON |
 | Factory on | 0xE0 | 00 | 00 | |
 | Factory off | 0xE2 | 00 | 00 | |
 | EEPROM ALL Initial | 0xE4 | 00 | 00 | Adjustment Initialization |
@@ -31,6 +34,9 @@
 | Aging On/Off | 0xF3 | 00 | FF/00 | FF: On<br>00: Off |
 | Input Select | 0xF4 | 00 | | 0xD0: Displayport<br>0x90: HDMI1<br>0x91: HDMI2<br>0xD1: Thunderbolt |
 | Restart System | 0xF5 | 00 | 00 | |
+| Panel Selection | 0xF6 | 00 | xx | depends on screen |
+| HDCP 2.2 read | 0xF8 | | data | read HDCP 2.2 key |
+| HDCP 2.2 write | 0xF9 | 00 | 00 | write HDCP 2.2 key |
 | APD command | 0xF7 | 00 | 0x00-0x01 | 0x00: OFF<br>0x01: ON |
 
 
