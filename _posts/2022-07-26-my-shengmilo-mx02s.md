@@ -2,7 +2,10 @@
 
 Here's some notes about my Sheng Milo MX02S.
 
-# Replaced PAS Sensor (2023-04)
+# Frontlight died (2024-06)
+Frontlight died.
+
+# Replaced PAS Sensor (2024-04)
 PAS sensor was randomly cutting out and worse, randomly activating when stopped, due to it working loose from the frame and dirt coming inside.
 Replaced it with https://nl.aliexpress.com/item/1005005170320594.html
 
