@@ -165,7 +165,7 @@ mUsertype 2 and 3 is not entirely sure.
 
 ## BLE EIR
 
-Auto Hotspot uses BLE EIR for discovery. packet type: 01 probe. 02 response.
+Auto Hotspot uses BLE EIR for discovery. packet type: 01 probe. 02 response.  
 ```| BLE EIR header | Samsung VID | MHS header | hash_guid | hash_family_id | packet_type | _mhs_mac | 27 01 01 | 00 00 00 00 00 00 00 |```
 
 ## BLE UUIDs
