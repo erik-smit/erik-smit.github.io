@@ -1,3 +1,5 @@
+<img src="/images/2024-09-12-samsung-auto-hotspot/settings2.jpg" width="876" height="591">
+
 # Introduction
 
 After buying a Samsung S23 Ultra there was a new addition to the WiFi list on my Samsung Tab S7+. A new list called “Auto Hotspot” showed “Erik’s S23 Ultra”. Pressing this element turns on Mobile Hotspot on my S23 Ultra and connect my Tab S7+ to it. Where did this come from? How does my tablet learn the password? How is this implemented?
