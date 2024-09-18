@@ -2,6 +2,9 @@
 
 Here's some notes about my Sheng Milo MX02S.
 
+# Replaced hub motor gears (2024-09)
+Some teeth had come lose and the motor was getting noiser. Replaced with "47.5x13.5mm Planetary Gear 36 Teeth Gears With 8mm Bearings Nylon".
+
 # Frontlight died (2024-06)
 Frontlight died.
 
