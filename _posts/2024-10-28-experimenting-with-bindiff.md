@@ -1,0 +1,77 @@
+# Experimenting with binary diffing (CVE-2022-39848)
+
+To experiment with binary diffing, I take a look at CVE-2022-39848, "Exposure of sensitive information in AT_Distributor prior to SMR Oct-2022 Release 1 allows local attacker to access SerialNo via log.".
+
+On Samfw.com I grab A125F_PHN_A125FXXS2CVK2 and A125F_PHN_A125FXXS2CVH2 for comparison and extracted them with https://github.com/srlabs/extractor.
+
+at_distributor in both versions have the same filesize, but different md5, so seems to be on the right path:
+
+```
+# ls -la SM-A125F_PHN_A125FXXS2CV*/bin/at_distributor
+-rwxr-xr-x 1 root 2000 141264 Dec 31  2008 SM-A125F_PHN_A125FXXS2CVH2/bin/at_distributor
+-rwxr-xr-x 1 root 2000 141264 Dec 31  2008 SM-A125F_PHN_A125FXXS2CVK2/bin/at_distributor
+# md5sum SM-A125F_PHN_A125FXXS2CV*/bin/at_distributor
+795ce0c330ebf8798963fa5eb57470bf  SM-A125F_PHN_A125FXXS2CVH2/bin/at_distributor
+57593b0d85114cbc60ed328de0b49811  SM-A125F_PHN_A125FXXS2CVK2/bin/at_distributor
+```
+
+Both files were uploaded to https://dogbolt.org/ and I took the hex-rays decompiled results. 
+
+A125FXXS2CVH2 has 10 results for "SERIALNO" and A125FXXS2CVK2 has 6 results for "SERIALNO".
+
+Comparing the main() shows the following difference:
+```
+A125FXXS2CVH2:
+          if ( atoi((const char *)nptr) >= 28 )
+          {
+            memset(&readfds, 0, 92);
+            sprintf((__int64)&readfds, 92LL, "%s%s", "SEC_SN=", v4);
+            v8 = __strlen_chk(&readfds, 92LL);
+            __android_log_print(
+              3LL,
+              "AT_Distributor",
+              "SERIALNO: serialNumber = %s, serialLen = %d",
+              (const char *)&readfds,
+              v8);
+            v9 = __strlen_chk(&readfds, 92LL);
+            __android_log_buf_print(
+              1LL,
+              3LL,
+              "ATD",
+              "SERIALNO: serialNumber = %s, serialLen = %d",
+              (const char *)&readfds,
+              v9);
+            if ( readfds.fds_bits[0] ^ 0x303D4E535F434553LL | readfds.fds_bits[1] ^ 0x3030303030303030LL | *(__fd_mask *)((char *)&readfds.fds_bits[1] + 3) ^ 0x30303030303030LL )
+            {
+              if ( __strlen_chk(&readfds, 92LL) == 18 )
+              {
+                __android_log_print(3LL, "AT_Distributor", "SERIALNO: syncBootParam");
+                __android_log_buf_print(1LL, 3LL, "ATD", "SERIALNO: syncBootParam");
+                v10 = __strlen_chk(&readfds, 92LL);
+                syncBootParam((const char *)&readfds, "ro.boot.sn.param.offset", v10);
+              }
+            }
+          }
+```
+```
+A125FXXS2CVK2:
+          if ( atoi((const char *)nptr) >= 28 )
+          {
+            memset(&readfds, 0, 92);
+            sprintf((__int64)&readfds, 92LL, "%s%s", "SEC_SN=", v4);
+            if ( readfds.fds_bits[0] ^ 0x303D4E535F434553LL | readfds.fds_bits[1] ^ 0x3030303030303030LL | *(__fd_mask *)((char *)&readfds.fds_bits[1] + 3) ^ 0x30303030303030LL )
+            {
+              if ( __strlen_chk(&readfds, 92LL) == 18 )
+              {
+                __android_log_print(3LL, "AT_Distributor", "SERIALNO: syncBootParam");
+                __android_log_buf_print(1LL, 3LL, "ATD", "SERIALNO: syncBootParam");
+                v7 = __strlen_chk(&readfds, 92LL);
+                syncBootParam((const char *)&readfds, "ro.boot.sn.param.offset", v7);
+              }
+            }
+          }
+```
+
+I was hoping a leakage through AT commands, but it seems like it's through the android logcat.
+
+But, a useful experiment of comparing binaries through decompilers none-the-less.
