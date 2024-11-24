@@ -7,8 +7,8 @@ Has a PCB inside with "LDX104-120-003X" silkscreen.
 
 # OEM Parts
 
-Light and Horn Button - Star Union E-BIKE-DK226/2
-Light and Horn - EF300 (https://mayebikes.en.made-in-china.com/product/WmsrDybcLBkh/China-Cheap-Price-Electric-Bike-Light-Horn-36V-48V-Front-Head-Light-5W-12W-Universal-Bicycle-Horn-Headlight-for-Electric-Scooter.html)
+Light and Horn Button - Star Union E-BIKE-DK226/2  
+Light and Horn - [EF300](https://mayebikes.en.made-in-china.com/product/WmsrDybcLBkh/China-Cheap-Price-Electric-Bike-Light-Horn-36V-48V-Front-Head-Light-5W-12W-Universal-Bicycle-Horn-Headlight-for-Electric-Scooter.html) 
 
 # Battery
 OEM Reention Polly DP-6C.  
