@@ -4,6 +4,8 @@ To get some experience in using Claude Code, I went through the challenges of Pr
 This is with Sonnet 4 for daily use, with the $20/month subscription.
 Here are my results.
 
+Claude Code log HTML produced by [claude-code-log](https://github.com/daaain/claude-code-log). "User" is my input. "Assistant" is Claude Code result.
+
 ## 0 Smoke Test
 Prompt: `Generate me a TCP echo server in python that listens to a port, and whatever is received, is returned unmodified, can handle at least 5 simultaneous clients`
 
@@ -31,15 +33,21 @@ I can see the issue! The external test sent only 1 byte (49 which is 'I' in hex)
 Let me modify the server to handle partial message reads by accumulating bytes until we have a complete 9-byte message:
 ```
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers-2-means-to-an-end/session-dd81cb0d-fd40-4c77-8f8a-a64f909d226a.html)
+
 ## 3 Budget Chat
 Prompt: `Write a python server conforming to specs.txt, with unittest`
 
 One-shot.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers-3-budget-chat/session-88ed80ab-197b-4ef8-8160-c7086b8d7226.html)
+
 ## 4 Unusual Database Program
 Prompt: `Create a python udp server corresponding to specs.txt, with tests written with unittest module`.
 
 One-shot.
+
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers-4-unusual-database-program/session-217e515b-c301-4977-9885-15f4cf721167.html)
 
 ## 5 Mob in the Middle.
 Prompt: `In 5-mob-in-the-middle/server.py, write a proxy server corresponding to 5-mob-in-the-middle/specs.txt. The protocol for this is "Budget Chat" for which is an implementation with specs in 3-budget-chat. Add tests written for unittest.`
@@ -70,6 +78,8 @@ The online validation test returns the following failure: [Mon Aug 18 12:09:54 2
 
 Tests passed.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4.html) [2](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-14cf9ed1-daf9-4e7a-9ba2-3fd835642184.html)
+
 ## 6 Speed Daemon
 
 Prompt: `write 6-speed-daemon/server.py, a python tcp server corresponding to 6-speed-daemon/specs.txt, add unittest`
@@ -94,9 +104,13 @@ Online validation still fails with the same: [Mon Aug 18 12:24:26 2025 UTC] [0he
 [Mon Aug 18 12:24:42 2025 UTC] [1car.test] FAIL:didn't receive speeding ticket within 10 seconds
 ```
 
-Claude realized: “Perfect! All tests are passing. The key issue that was fixed was the ticket message format - it should use !HHIHIH (u16, u16, u32, u16, u32, u16) instead of !HHHIHH.”. Then all tests were passing.
+Claude realized: 
+
+> Perfect! All tests are passing. The key issue that was fixed was the ticket message format - it should use !HHIHIH (u16, u16, u32, u16, u32, u16) instead of !HHHIHH.”. Then all tests were passing.
 
 Tests passed.
+
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-59e6f459-b625-46e6-915b-335b0412450f.html)
 
 ## 7 Line reversal
 First real challenge.
@@ -109,6 +123,8 @@ Continued at the next day 21:05 - 22:07. Finished the morning after: 07:59-08:00
 
 Tests passed.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-199c51f0-00c5-4ee1-a948-a4907d18b87d.html) [2](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-98261e1d-675c-4ad5-afaa-0c2059a3dc20.html) [3](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf.html) [4](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-e7258824-b865-4df2-92b0-6adf0900c63d.html) [5](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-a072a0a2-0afc-4de7-9f53-b2a8f2c942fd.html)
+
 ## 8 Insecure Socket Layers
 
 Prompt: `Write a python server for 8-insecure-sockets-layer, conforming to specs.txt`
@@ -119,6 +135,8 @@ Prompt: `About 8-insecure-socket-layer/server.py. The online test fails after ti
 
 Tests passed.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-cfc076bb-47d0-4572-baaf-dda508e5473f.html) [2](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-41c490d5-bdab-4eb0-ab84-f6b3cefad51a.html)
+
 ## 9 Job Centre
 
 Prompt: `Write a server for 9-job-centre/specs.txt`
@@ -126,6 +144,8 @@ Prompt: `Write a server for 9-job-centre/specs.txt`
 Prompt: `online test fails with: [Thu Aug 21 09:10:29 2025 UTC] [3implicitabort.test] FAIL:'get' request with wait=true received response with status=no-job (should wait for a job to be available before responding); request was: {"request":"get","queues":["q-SwBn5Yos"],"wait":true}; response was: {"status":"no-job"}`
 
 Tests passed.
+
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-6250e668-5f49-4460-804b-eaeebe2a4f00.html)
 
 ## 10 Voracious Code Storage
 
@@ -137,6 +157,8 @@ Continued at 13:06. Did 6 prompts until 14:24.
 
 Tests passed.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-0247fcad-320b-4e0d-af6f-3c5adb060543.html)
+
 ## 11 Pest Control
 
 Started at 08:13. Worked until 13:06.
@@ -144,3 +166,5 @@ Started at 08:13. Worked until 13:06.
 Started two days later 07:49, worked until 07:53.
 
 Tests passed.
+
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-a11856b2-af67-4785-bf1b-05ae782df672.html) [2](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-459dfb0e-8640-4154-aa0d-a424433b67f4.html)
