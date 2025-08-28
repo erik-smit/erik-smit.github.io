@@ -1,6 +1,6 @@
 # Claude Code vs. Protohackers
 
-To get some experience in using Claude Code, I went through the challenges of Protohacker.
+To get some experience in using Claude Code, I went through the challenges of Protohackers.
 This is with Sonnet 4 for daily use, with the $20/month subscription.
 Every time I copy-pasted the challenge into a file `specs.txt` and told Claude Code to go.
 Here are my results.
