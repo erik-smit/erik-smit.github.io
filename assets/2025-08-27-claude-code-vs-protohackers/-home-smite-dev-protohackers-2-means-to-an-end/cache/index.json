@@ -1,0 +1,42 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:40.280645",
+  "last_updated": "2025-08-27T08:24:40.291920",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-2-means-to-an-end",
+  "cached_files": {
+    "dd81cb0d-fd40-4c77-8f8a-a64f909d226a.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-2-means-to-an-end/dd81cb0d-fd40-4c77-8f8a-a64f909d226a.jsonl",
+      "source_mtime": 1755507728.0192077,
+      "cached_mtime": 1756283080.2902834,
+      "message_count": 60,
+      "session_ids": [
+        "dd81cb0d-fd40-4c77-8f8a-a64f909d226a"
+      ]
+    }
+  },
+  "total_message_count": 60,
+  "total_input_tokens": 124,
+  "total_output_tokens": 1336,
+  "total_cache_creation_tokens": 46279,
+  "total_cache_read_tokens": 649227,
+  "sessions": {
+    "dd81cb0d-fd40-4c77-8f8a-a64f909d226a": {
+      "session_id": "dd81cb0d-fd40-4c77-8f8a-a64f909d226a",
+      "summary": null,
+      "first_timestamp": "2025-08-18T08:56:32.030Z",
+      "last_timestamp": "2025-08-18T09:02:07.991Z",
+      "message_count": 60,
+      "first_user_message": "Write a python server implementing specs.txt",
+      "cwd": "/home/smite/dev/protohackers/2-means-to-an-end",
+      "total_input_tokens": 124,
+      "total_output_tokens": 1336,
+      "total_cache_creation_tokens": 46279,
+      "total_cache_read_tokens": 649227
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers/2-means-to-an-end"
+  ],
+  "earliest_timestamp": "2025-08-18T08:56:32.030Z",
+  "latest_timestamp": "2025-08-18T09:02:07.991Z"
+}

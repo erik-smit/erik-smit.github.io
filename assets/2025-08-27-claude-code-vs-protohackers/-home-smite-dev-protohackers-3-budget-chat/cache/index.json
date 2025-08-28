@@ -1,0 +1,42 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:43.141788",
+  "last_updated": "2025-08-27T08:24:43.163858",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-3-budget-chat",
+  "cached_files": {
+    "88ed80ab-197b-4ef8-8160-c7086b8d7226.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-3-budget-chat/88ed80ab-197b-4ef8-8160-c7086b8d7226.jsonl",
+      "source_mtime": 1755517636.696132,
+      "cached_mtime": 1756283083.1613333,
+      "message_count": 119,
+      "session_ids": [
+        "88ed80ab-197b-4ef8-8160-c7086b8d7226"
+      ]
+    }
+  },
+  "total_message_count": 119,
+  "total_input_tokens": 60,
+  "total_output_tokens": 1236,
+  "total_cache_creation_tokens": 43393,
+  "total_cache_read_tokens": 1330683,
+  "sessions": {
+    "88ed80ab-197b-4ef8-8160-c7086b8d7226": {
+      "session_id": "88ed80ab-197b-4ef8-8160-c7086b8d7226",
+      "summary": null,
+      "first_timestamp": "2025-08-18T11:41:08.863Z",
+      "last_timestamp": "2025-08-18T11:47:16.617Z",
+      "message_count": 119,
+      "first_user_message": "Write a python server conforming to specs.txt, with unittest",
+      "cwd": "/home/smite/dev/protohackers/3-budget-chat",
+      "total_input_tokens": 60,
+      "total_output_tokens": 1236,
+      "total_cache_creation_tokens": 43393,
+      "total_cache_read_tokens": 1330683
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers/3-budget-chat"
+  ],
+  "earliest_timestamp": "2025-08-18T11:41:08.863Z",
+  "latest_timestamp": "2025-08-18T11:47:16.617Z"
+}

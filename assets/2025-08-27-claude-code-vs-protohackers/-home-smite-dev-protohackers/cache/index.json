@@ -1,0 +1,394 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:40.380872",
+  "last_updated": "2025-08-27T08:24:41.002008",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers",
+  "cached_files": {
+    "dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4.jsonl",
+      "source_mtime": 1755518500.321613,
+      "cached_mtime": 1756283080.3843527,
+      "message_count": 15,
+      "session_ids": [
+        "dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4"
+      ]
+    },
+    "69a29ab8-453d-4f10-b1cc-bff588c1072d.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/69a29ab8-453d-4f10-b1cc-bff588c1072d.jsonl",
+      "source_mtime": 1755764993.7280283,
+      "cached_mtime": 1756283080.386285,
+      "message_count": 12,
+      "session_ids": [
+        "69a29ab8-453d-4f10-b1cc-bff588c1072d"
+      ]
+    },
+    "a072a0a2-0afc-4de7-9f53-b2a8f2c942fd.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/a072a0a2-0afc-4de7-9f53-b2a8f2c942fd.jsonl",
+      "source_mtime": 1755763646.7548435,
+      "cached_mtime": 1756283080.4052854,
+      "message_count": 114,
+      "session_ids": [
+        "a072a0a2-0afc-4de7-9f53-b2a8f2c942fd"
+      ]
+    },
+    "0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf.jsonl",
+      "source_mtime": 1755696403.985352,
+      "cached_mtime": 1756283080.4152856,
+      "message_count": 60,
+      "session_ids": [
+        "0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf"
+      ]
+    },
+    "50795b42-1d90-432e-821f-1a8b1700050e.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/50795b42-1d90-432e-821f-1a8b1700050e.jsonl",
+      "source_mtime": 1755343949.5988998,
+      "cached_mtime": 1756283080.436286,
+      "message_count": 128,
+      "session_ids": [
+        "50795b42-1d90-432e-821f-1a8b1700050e"
+      ]
+    },
+    "0247fcad-320b-4e0d-af6f-3c5adb060543.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/0247fcad-320b-4e0d-af6f-3c5adb060543.jsonl",
+      "source_mtime": 1755786555.109176,
+      "cached_mtime": 1756283080.5742884,
+      "message_count": 912,
+      "session_ids": [
+        "0247fcad-320b-4e0d-af6f-3c5adb060543"
+      ]
+    },
+    "59e6f459-b625-46e6-915b-335b0412450f.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/59e6f459-b625-46e6-915b-335b0412450f.jsonl",
+      "source_mtime": 1755520096.7330556,
+      "cached_mtime": 1756283080.609289,
+      "message_count": 198,
+      "session_ids": [
+        "59e6f459-b625-46e6-915b-335b0412450f"
+      ]
+    },
+    "a11856b2-af67-4785-bf1b-05ae782df672.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/a11856b2-af67-4785-bf1b-05ae782df672.jsonl",
+      "source_mtime": 1756127189.5590365,
+      "cached_mtime": 1756283080.66429,
+      "message_count": 356,
+      "session_ids": [
+        "a11856b2-af67-4785-bf1b-05ae782df672"
+      ]
+    },
+    "cfc076bb-47d0-4572-baaf-dda508e5473f.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/cfc076bb-47d0-4572-baaf-dda508e5473f.jsonl",
+      "source_mtime": 1755764249.2416406,
+      "cached_mtime": 1756283080.6812901,
+      "message_count": 98,
+      "session_ids": [
+        "cfc076bb-47d0-4572-baaf-dda508e5473f"
+      ]
+    },
+    "459dfb0e-8640-4154-aa0d-a424433b67f4.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/459dfb0e-8640-4154-aa0d-a424433b67f4.jsonl",
+      "source_mtime": 1756281182.699796,
+      "cached_mtime": 1756283080.6892903,
+      "message_count": 41,
+      "session_ids": [
+        "459dfb0e-8640-4154-aa0d-a424433b67f4"
+      ]
+    },
+    "41c490d5-bdab-4eb0-ab84-f6b3cefad51a.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/41c490d5-bdab-4eb0-ab84-f6b3cefad51a.jsonl",
+      "source_mtime": 1755766497.6123362,
+      "cached_mtime": 1756283080.6922903,
+      "message_count": 15,
+      "session_ids": [
+        "41c490d5-bdab-4eb0-ab84-f6b3cefad51a"
+      ]
+    },
+    "6250e668-5f49-4460-804b-eaeebe2a4f00.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/6250e668-5f49-4460-804b-eaeebe2a4f00.jsonl",
+      "source_mtime": 1755767893.3806899,
+      "cached_mtime": 1756283080.7102907,
+      "message_count": 115,
+      "session_ids": [
+        "6250e668-5f49-4460-804b-eaeebe2a4f00"
+      ]
+    },
+    "199c51f0-00c5-4ee1-a948-a4907d18b87d.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/199c51f0-00c5-4ee1-a948-a4907d18b87d.jsonl",
+      "source_mtime": 1755599376.5003943,
+      "cached_mtime": 1756283080.7972922,
+      "message_count": 534,
+      "session_ids": [
+        "199c51f0-00c5-4ee1-a948-a4907d18b87d"
+      ]
+    },
+    "486f6ea4-a2c1-446f-a0a8-0ad7653068ff.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/486f6ea4-a2c1-446f-a0a8-0ad7653068ff.jsonl",
+      "source_mtime": 1755342386.0367565,
+      "cached_mtime": 1756283080.7992923,
+      "message_count": 3,
+      "session_ids": [
+        "486f6ea4-a2c1-446f-a0a8-0ad7653068ff"
+      ]
+    },
+    "14cf9ed1-daf9-4e7a-9ba2-3fd835642184.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/14cf9ed1-daf9-4e7a-9ba2-3fd835642184.jsonl",
+      "source_mtime": 1755519157.1185467,
+      "cached_mtime": 1756283080.8092923,
+      "message_count": 67,
+      "session_ids": [
+        "14cf9ed1-daf9-4e7a-9ba2-3fd835642184"
+      ]
+    },
+    "98261e1d-675c-4ad5-afaa-0c2059a3dc20.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/98261e1d-675c-4ad5-afaa-0c2059a3dc20.jsonl",
+      "source_mtime": 1755608681.0928946,
+      "cached_mtime": 1756283080.9142942,
+      "message_count": 621,
+      "session_ids": [
+        "98261e1d-675c-4ad5-afaa-0c2059a3dc20"
+      ]
+    },
+    "e7258824-b865-4df2-92b0-6adf0900c63d.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers/e7258824-b865-4df2-92b0-6adf0900c63d.jsonl",
+      "source_mtime": 1755727624.7671263,
+      "cached_mtime": 1756283080.9782953,
+      "message_count": 360,
+      "session_ids": [
+        "e7258824-b865-4df2-92b0-6adf0900c63d"
+      ]
+    }
+  },
+  "total_message_count": 3649,
+  "total_input_tokens": 13159,
+  "total_output_tokens": 126883,
+  "total_cache_creation_tokens": 2375266,
+  "total_cache_read_tokens": 93418189,
+  "sessions": {
+    "486f6ea4-a2c1-446f-a0a8-0ad7653068ff": {
+      "session_id": "486f6ea4-a2c1-446f-a0a8-0ad7653068ff",
+      "summary": "Local Command Exit with No Output",
+      "first_timestamp": "2025-08-16T11:06:25.990Z",
+      "last_timestamp": "2025-08-16T11:06:25.993Z",
+      "message_count": 3,
+      "first_user_message": "",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 0,
+      "total_output_tokens": 0,
+      "total_cache_creation_tokens": 0,
+      "total_cache_read_tokens": 0
+    },
+    "50795b42-1d90-432e-821f-1a8b1700050e": {
+      "session_id": "50795b42-1d90-432e-821f-1a8b1700050e",
+      "summary": null,
+      "first_timestamp": "2025-08-16T11:13:27.589Z",
+      "last_timestamp": "2025-08-16T11:32:29.568Z",
+      "message_count": 127,
+      "first_user_message": "Write a TCP server in python conforming to the specs in specs.txt",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 183,
+      "total_output_tokens": 1519,
+      "total_cache_creation_tokens": 57810,
+      "total_cache_read_tokens": 1462814
+    },
+    "dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4": {
+      "session_id": "dd2cd11e-b9be-4ba9-9f8e-569153fcf6e4",
+      "summary": "Proxy Server Security Ethics: Declined Malicious Implementation",
+      "first_timestamp": "2025-08-18T12:01:16.158Z",
+      "last_timestamp": "2025-08-18T12:01:40.265Z",
+      "message_count": 15,
+      "first_user_message": "In 5-mob-in-the-middle/server.py, write a proxy server corresponding to 5-mob-in-the-middle/specs.txt. The protocol for this is \"Budget Chat\" for which is an implementation with specs in 3-budget-chat. Add tests written for unittest.",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 62,
+      "total_output_tokens": 543,
+      "total_cache_creation_tokens": 17950,
+      "total_cache_read_tokens": 81636
+    },
+    "14cf9ed1-daf9-4e7a-9ba2-3fd835642184": {
+      "session_id": "14cf9ed1-daf9-4e7a-9ba2-3fd835642184",
+      "summary": null,
+      "first_timestamp": "2025-08-18T12:04:19.562Z",
+      "last_timestamp": "2025-08-18T12:12:37.050Z",
+      "message_count": 66,
+      "first_user_message": "In 5-mob-in-the-middle/server.py, write a proxy server corresponding to 5-mob-in-the-middle/specs.txt. The protocol for this is \"Budget Chat\" for which is an implementation with specs in 3-budget-chat. Add tests written for unittest.",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 127,
+      "total_output_tokens": 2943,
+      "total_cache_creation_tokens": 44977,
+      "total_cache_read_tokens": 764969
+    },
+    "59e6f459-b625-46e6-915b-335b0412450f": {
+      "session_id": "59e6f459-b625-46e6-915b-335b0412450f",
+      "summary": "Speed Camera System Validation and Ticket Dispatch Fix",
+      "first_timestamp": "2025-08-18T12:17:44.076Z",
+      "last_timestamp": "2025-08-18T12:28:16.656Z",
+      "message_count": 198,
+      "first_user_message": "write 6-speed-daemon/server.py, a python tcp server corresponding to 6-speed-daemon/specs.txt, add unittest",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 141,
+      "total_output_tokens": 7023,
+      "total_cache_creation_tokens": 88468,
+      "total_cache_read_tokens": 3394018
+    },
+    "199c51f0-00c5-4ee1-a948-a4907d18b87d": {
+      "session_id": "199c51f0-00c5-4ee1-a948-a4907d18b87d",
+      "summary": null,
+      "first_timestamp": "2025-08-19T09:33:48.884Z",
+      "last_timestamp": "2025-08-19T10:29:36.159Z",
+      "message_count": 533,
+      "first_user_message": "write a python udp server in 7-line-reversal/server.py, according to the specs in 7-line-reversal/specs.txt, write unittest",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 487,
+      "total_output_tokens": 10789,
+      "total_cache_creation_tokens": 190077,
+      "total_cache_read_tokens": 15351149
+    },
+    "98261e1d-675c-4ad5-afaa-0c2059a3dc20": {
+      "session_id": "98261e1d-675c-4ad5-afaa-0c2059a3dc20",
+      "summary": "Debugging Python Web Scraper with Selenium and BeautifulSoup",
+      "first_timestamp": "2025-08-19T10:30:30.219Z",
+      "last_timestamp": "2025-08-19T13:04:40.943Z",
+      "message_count": 621,
+      "first_user_message": "4badpackets.test failed again with the same alarm timeout. there is a tcpdump in badpackets_capture.pcap",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 880,
+      "total_output_tokens": 23183,
+      "total_cache_creation_tokens": 381773,
+      "total_cache_read_tokens": 18824637
+    },
+    "0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf": {
+      "session_id": "0925e3a9-6cbb-4f80-a5c7-4e5f58a6e4bf",
+      "summary": null,
+      "first_timestamp": "2025-08-20T13:14:18.935Z",
+      "last_timestamp": "2025-08-20T13:26:43.933Z",
+      "message_count": 58,
+      "first_user_message": "Check the git diff for 7-line-reversal/server.py. The server got in an infinite loop when processing 0-byte data packets. Does my fix make sense? My fix solves the infinite loop problem and lets the [4badpackets.test] PASS. ",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 100,
+      "total_output_tokens": 2032,
+      "total_cache_creation_tokens": 34771,
+      "total_cache_read_tokens": 511698
+    },
+    "e7258824-b865-4df2-92b0-6adf0900c63d": {
+      "session_id": "e7258824-b865-4df2-92b0-6adf0900c63d",
+      "summary": "Fixing LRCP Packet Handling with Out-of-Order Logic",
+      "first_timestamp": "2025-08-20T21:05:14.018Z",
+      "last_timestamp": "2025-08-20T22:07:04.608Z",
+      "message_count": 360,
+      "first_user_message": "for 7-line-reversal, write a unittest for large packets, transferring 40kb of data, and then seeing if it's properly returned reversed and in <1000 byte packets",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 410,
+      "total_output_tokens": 7800,
+      "total_cache_creation_tokens": 594882,
+      "total_cache_read_tokens": 12035816
+    },
+    "a072a0a2-0afc-4de7-9f53-b2a8f2c942fd": {
+      "session_id": "a072a0a2-0afc-4de7-9f53-b2a8f2c942fd",
+      "summary": null,
+      "first_timestamp": "2025-08-21T07:59:33.111Z",
+      "last_timestamp": "2025-08-21T08:07:26.686Z",
+      "message_count": 113,
+      "first_user_message": "Is this implemented: If the LENGTH value is larger than the total amount of payload you've sent: the peer is misbehaving, close the session.",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 9238,
+      "total_output_tokens": 4364,
+      "total_cache_creation_tokens": 107162,
+      "total_cache_read_tokens": 1170820
+    },
+    "cfc076bb-47d0-4572-baaf-dda508e5473f": {
+      "session_id": "cfc076bb-47d0-4572-baaf-dda508e5473f",
+      "summary": "Insecure Sockets Layer Server Implementation Complete",
+      "first_timestamp": "2025-08-21T08:08:01.738Z",
+      "last_timestamp": "2025-08-21T08:17:29.155Z",
+      "message_count": 98,
+      "first_user_message": "Please analyze this codebase and create a CLAUDE.md file, which will be given to future instances of Claude Code to operate in this repository.\n            \nWhat to add:\n1. Commands that will be commonly used, such as how to build, lint, and run tests. Include the necessary commands to develop in this codebase, such as how to run a single test.\n2. High-level code architecture and structure so that future instances can be productive more quickly. Focus on the \"big picture\" architecture that requires reading multiple files to understand\n\nUsage notes:\n- If there's already a CLAUDE.md, suggest improvements to it.\n- When you make the initial CLAUDE.md, do not repeat yourself and do not include obvious instructions like \"Provide helpful error messages to users\", \"Write unit tests for all new utilities\", \"Never include sensitive information (API keys, tokens) in code or commits\" \n- Avoid listing every component or file structure that can be easily discovered\n- Don't include generic developmen...",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 213,
+      "total_output_tokens": 7640,
+      "total_cache_creation_tokens": 38622,
+      "total_cache_read_tokens": 1128436
+    },
+    "69a29ab8-453d-4f10-b1cc-bff588c1072d": {
+      "session_id": "69a29ab8-453d-4f10-b1cc-bff588c1072d",
+      "summary": null,
+      "first_timestamp": "2025-08-21T08:29:07.874Z",
+      "last_timestamp": "2025-08-21T08:29:53.711Z",
+      "message_count": 11,
+      "first_user_message": "Use playwright mcp to open a browser to example.com",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 16,
+      "total_output_tokens": 207,
+      "total_cache_creation_tokens": 9073,
+      "total_cache_read_tokens": 45474
+    },
+    "41c490d5-bdab-4eb0-ab84-f6b3cefad51a": {
+      "session_id": "41c490d5-bdab-4eb0-ab84-f6b3cefad51a",
+      "summary": "Cipher Newline Decoding: Byte-by-Byte Solution",
+      "first_timestamp": "2025-08-21T08:52:38.809Z",
+      "last_timestamp": "2025-08-21T08:54:57.507Z",
+      "message_count": 15,
+      "first_user_message": "About 8-insecure-socket-layer/server.py. The online test fails after time. I see it's hanging in _read_line. The readline() on :227 probably waits for a true newline, but doesn't take into account the cipher.",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 26,
+      "total_output_tokens": 699,
+      "total_cache_creation_tokens": 10094,
+      "total_cache_read_tokens": 104963
+    },
+    "6250e668-5f49-4460-804b-eaeebe2a4f00": {
+      "session_id": "6250e668-5f49-4460-804b-eaeebe2a4f00",
+      "summary": null,
+      "first_timestamp": "2025-08-21T09:00:57.951Z",
+      "last_timestamp": "2025-08-21T09:18:13.244Z",
+      "message_count": 114,
+      "first_user_message": "Write a server for 9-job-centre/specs.txt",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 136,
+      "total_output_tokens": 1944,
+      "total_cache_creation_tokens": 54690,
+      "total_cache_read_tokens": 1480281
+    },
+    "0247fcad-320b-4e0d-af6f-3c5adb060543": {
+      "session_id": "0247fcad-320b-4e0d-af6f-3c5adb060543",
+      "summary": "Debugging Python Web Scraper with Selenium and BeautifulSoup",
+      "first_timestamp": "2025-08-21T09:21:03.597Z",
+      "last_timestamp": "2025-08-21T14:29:14.866Z",
+      "message_count": 912,
+      "first_user_message": "for 10-voracious-code-storage, there are only minimal specs in specs.txt. There is an implementation on vcs.protohackers.com:30307 over TCP. Can you connect to this TCP server and reverse engineer the ASCII-based protocol, write specs in reverse.txt, write a client and then write a server for this?",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 862,
+      "total_output_tokens": 42990,
+      "total_cache_creation_tokens": 519405,
+      "total_cache_read_tokens": 28099529
+    },
+    "a11856b2-af67-4785-bf1b-05ae782df672": {
+      "session_id": "a11856b2-af67-4785-bf1b-05ae782df672",
+      "summary": null,
+      "first_timestamp": "2025-08-25T08:13:21.122Z",
+      "last_timestamp": "2025-08-25T13:06:29.428Z",
+      "message_count": 354,
+      "first_user_message": "create a 11-pest-control/server.py that conforms to 11-pest-control/specs.txt",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 219,
+      "total_output_tokens": 8788,
+      "total_cache_creation_tokens": 199473,
+      "total_cache_read_tokens": 8318047
+    },
+    "459dfb0e-8640-4154-aa0d-a424433b67f4": {
+      "session_id": "459dfb0e-8640-4154-aa0d-a424433b67f4",
+      "summary": null,
+      "first_timestamp": "2025-08-27T07:49:37.810Z",
+      "last_timestamp": "2025-08-27T07:53:02.645Z",
+      "message_count": 41,
+      "first_user_message": "Can you add a connection ID to all connections and logging, to connect log entries to connections?",
+      "cwd": "/home/smite/dev/protohackers",
+      "total_input_tokens": 59,
+      "total_output_tokens": 4419,
+      "total_cache_creation_tokens": 26039,
+      "total_cache_read_tokens": 643902
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers"
+  ],
+  "earliest_timestamp": "2025-08-16T11:06:25.990Z",
+  "latest_timestamp": "2025-08-27T07:53:02.645Z"
+}

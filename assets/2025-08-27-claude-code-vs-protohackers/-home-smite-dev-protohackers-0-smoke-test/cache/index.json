@@ -1,0 +1,42 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:43.333718",
+  "last_updated": "2025-08-27T08:24:43.338784",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-0-smoke-test",
+  "cached_files": {
+    "f22c020e-6d2d-425e-b850-b0bf611f7ac8.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-0-smoke-test/f22c020e-6d2d-425e-b850-b0bf611f7ac8.jsonl",
+      "source_mtime": 1755342625.6393614,
+      "cached_mtime": 1756283083.3373365,
+      "message_count": 27,
+      "session_ids": [
+        "f22c020e-6d2d-425e-b850-b0bf611f7ac8"
+      ]
+    }
+  },
+  "total_message_count": 27,
+  "total_input_tokens": 36,
+  "total_output_tokens": 336,
+  "total_cache_creation_tokens": 17961,
+  "total_cache_read_tokens": 198727,
+  "sessions": {
+    "f22c020e-6d2d-425e-b850-b0bf611f7ac8": {
+      "session_id": "f22c020e-6d2d-425e-b850-b0bf611f7ac8",
+      "summary": null,
+      "first_timestamp": "2025-08-16T11:09:15.386Z",
+      "last_timestamp": "2025-08-16T11:10:25.614Z",
+      "message_count": 27,
+      "first_user_message": "Generate me a TCP echo server in python that listens to a port, and whatever is received, is returned unmodified, can handle at least 5 simultaneous clients.",
+      "cwd": "/home/smite/dev/protohackers/0-smoke-test",
+      "total_input_tokens": 36,
+      "total_output_tokens": 336,
+      "total_cache_creation_tokens": 17961,
+      "total_cache_read_tokens": 198727
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers/0-smoke-test"
+  ],
+  "earliest_timestamp": "2025-08-16T11:09:15.386Z",
+  "latest_timestamp": "2025-08-16T11:10:25.614Z"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:43.266541",
+  "last_updated": "2025-08-27T08:24:43.271982",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-4-unusual-database-program",
+  "cached_files": {
+    "217e515b-c301-4977-9885-15f4cf721167.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-4-unusual-database-program/217e515b-c301-4977-9885-15f4cf721167.jsonl",
+      "source_mtime": 1755517924.1153812,
+      "cached_mtime": 1756283083.2703352,
+      "message_count": 25,
+      "session_ids": [
+        "217e515b-c301-4977-9885-15f4cf721167"
+      ]
+    }
+  },
+  "total_message_count": 25,
+  "total_input_tokens": 45,
+  "total_output_tokens": 654,
+  "total_cache_creation_tokens": 9898,
+  "total_cache_read_tokens": 173233,
+  "sessions": {
+    "217e515b-c301-4977-9885-15f4cf721167": {
+      "session_id": "217e515b-c301-4977-9885-15f4cf721167",
+      "summary": null,
+      "first_timestamp": "2025-08-18T11:50:43.241Z",
+      "last_timestamp": "2025-08-18T11:52:04.068Z",
+      "message_count": 25,
+      "first_user_message": "Create a python udp server corresponding to specs.txt, with tests written with unittest module",
+      "cwd": "/home/smite/dev/protohackers/4-unusual-database-program",
+      "total_input_tokens": 45,
+      "total_output_tokens": 654,
+      "total_cache_creation_tokens": 9898,
+      "total_cache_read_tokens": 173233
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers/4-unusual-database-program"
+  ],
+  "earliest_timestamp": "2025-08-18T11:50:43.241Z",
+  "latest_timestamp": "2025-08-18T11:52:04.068Z"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.4.4",
+  "cache_created": "2025-08-27T08:24:40.161920",
+  "last_updated": "2025-08-27T08:24:40.186688",
+  "project_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-1-prime-time",
+  "cached_files": {
+    "b19010f2-7aac-45b8-93c9-3898fb95df61.jsonl": {
+      "file_path": "/home/smite/.claude/projects/-home-smite-dev-protohackers-1-prime-time/b19010f2-7aac-45b8-93c9-3898fb95df61.jsonl",
+      "source_mtime": 1755507091.2836263,
+      "cached_mtime": 1756283080.1842816,
+      "message_count": 89,
+      "session_ids": [
+        "b19010f2-7aac-45b8-93c9-3898fb95df61"
+      ]
+    }
+  },
+  "total_message_count": 89,
+  "total_input_tokens": 123,
+  "total_output_tokens": 1411,
+  "total_cache_creation_tokens": 118262,
+  "total_cache_read_tokens": 816555,
+  "sessions": {
+    "b19010f2-7aac-45b8-93c9-3898fb95df61": {
+      "session_id": "b19010f2-7aac-45b8-93c9-3898fb95df61",
+      "summary": null,
+      "first_timestamp": "2025-08-18T08:26:49.206Z",
+      "last_timestamp": "2025-08-18T08:51:31.251Z",
+      "message_count": 89,
+      "first_user_message": "test_suite.py both 'malformed' and a json response in the response to malformed requests",
+      "cwd": "/home/smite/dev/protohackers/1-prime-time",
+      "total_input_tokens": 123,
+      "total_output_tokens": 1411,
+      "total_cache_creation_tokens": 118262,
+      "total_cache_read_tokens": 816555
+    }
+  },
+  "working_directories": [
+    "/home/smite/dev/protohackers/1-prime-time"
+  ],
+  "earliest_timestamp": "2025-08-18T08:26:49.206Z",
+  "latest_timestamp": "2025-08-18T08:51:31.251Z"
+}
