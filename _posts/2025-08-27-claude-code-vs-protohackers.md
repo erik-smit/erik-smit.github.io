@@ -9,10 +9,14 @@ Prompt: `Generate me a TCP echo server in python that listens to a port, and wha
 
 One-shot. Tests passed.
 
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers-0-smoke-test/session-f22c020e-6d2d-425e-b850-b0bf611f7ac8.html)
+
 ## 1 Prime Time
 Prompt: `Write a TCP server in python conforming to the specs in specs.txt`
 
 Took 15 prompts, ~50 minutes to get to "tests passed".
+
+Claude Code logs: [1](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers/session-50795b42-1d90-432e-821f-1a8b1700050e.html) [2](/assets/2025-08-27-claude-code-vs-protohackers/-home-smite-dev-protohackers-1-prime-time/session-b19010f2-7aac-45b8-93c9-3898fb95df61.html)
 
 ## 2 Means to an End
 Prompt: `Write a python server implementing specs.txt, also add unittest`
