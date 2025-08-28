@@ -2,6 +2,7 @@
 
 To get some experience in using Claude Code, I went through the challenges of Protohacker.
 This is with Sonnet 4 for daily use, with the $20/month subscription.
+Every time I copy-pasted the challenge into a file `specs.txt` and told Claude Code to go.
 Here are my results.
 
 Claude Code log HTML produced by [claude-code-log](https://github.com/daaain/claude-code-log). "User" is my input. "Assistant" is Claude Code result.
