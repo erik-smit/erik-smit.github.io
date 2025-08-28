@@ -1,4 +1,4 @@
-# Claude Code vs. Protohackers
+# Using Claude Code to solve Protohackers server programming challenge
 
 To get some experience in using Claude Code, I went through the challenges of Protohackers.
 This is with Sonnet 4 for daily use, with the $20/month subscription.
